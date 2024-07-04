@@ -40,7 +40,7 @@ function Providers (){
                                     <td>{provider.country}</td>
                                     <td>{provider.marketshare}{" %"}</td>
                                     <td>{provider.renewbleenergypercentage}{" %"}</td>
-                                    <td>{provider.yearlyrevenue}</td>
+                                    <td>{provider.yearlyrevenue}{" €/year"}</td>
                                     <td>
                                         <Link to={ `/update/${provider._id}` } className="btn btn-success" >Edit</Link>{" "}
                                         <button className="btn btn-danger" onClick={(e) => handleDelete(provider._id)}>Delete</button>
