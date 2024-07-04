@@ -16,7 +16,6 @@ function CreateProvider() {
     axios.post("http://localhost:3001/createProvider", { name, country, marketshare, renewbleenergypercentage, yearlyrevenue })
       .then(result => {
         console.log(result);
-        // Clear the form or navigate to another page on success
         setName('');
         setCountry('');
         setMarketshare('');
