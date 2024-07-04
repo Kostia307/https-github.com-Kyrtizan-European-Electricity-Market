@@ -38,8 +38,8 @@ function Providers (){
                                 return <tr>
                                     <td>{provider.name}</td>
                                     <td>{provider.country}</td>
-                                    <td>{provider.marketshare}</td>
-                                    <td>{provider.renewbleenergypercentage}</td>
+                                    <td>{provider.marketshare}{" %"}</td>
+                                    <td>{provider.renewbleenergypercentage}{" %"}</td>
                                     <td>{provider.yearlyrevenue}</td>
                                     <td>
                                         <Link to={ `/update/${provider._id}` } className="btn btn-success" >Edit</Link>{" "}
