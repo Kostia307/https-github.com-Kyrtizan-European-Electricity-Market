@@ -5,7 +5,8 @@ const ProviderSchema = new mongoose.Schema({
         type: String,
         minLength: [3, 'Name is too short'],
         maxLength: [30, 'Name is too long'],
-        required: true
+        required: true,
+        unique: true
     },
     country: {
         type: String,
