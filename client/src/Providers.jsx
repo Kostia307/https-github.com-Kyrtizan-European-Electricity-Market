@@ -49,6 +49,9 @@ function Providers (){
                                 </tr>
                             })
                         }
+                        <tr>
+                            
+                        </tr>
                     </tbody>
                 </table>
             </div>
