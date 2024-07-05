@@ -12,6 +12,7 @@ function Providers (){
         .catch(err => console.log(err))
     }, [])
 
+    //Reloads webpage instead only the table - needs to be changed
     const handleDelete = (id) => {
         axios.delete('http://localhost:3001/deleteProvider/' + id)
         .then(res => {console.log(res)
